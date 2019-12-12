@@ -52,56 +52,54 @@
    6. Then datas are merged with pd.merge()
    7. Repeated the steps for ACT, SAT 2018 and merged all files together.
    8. describe() is used to obtain the statistical information.
-   9. got the states participated lesser and most and the max and min marks based on states with masking, filtering and .sort_values()         
-         a. North dakota, Mississippi, lowa are the states with least participation in 'sat_2017_participation' Connecticut,Delaware,   District of Columbia and Michigan are the states with maximum participation in 'sat_2017_participation'
-         b. Maine is the states with least participation in 'act_2017_participation'
-         c. South Carolina, Utah, Tennessee, Alabama, Missouri, North Carolina, Nevada, Montana, Wisconsin, Mississippi, Minnesota,Louisiana,Kentucky, Colorado, Arkansas, Oklahoma and Wyoming have the maximum participation rate for act_2017_participation.
-         d. Colorado, Connecticut, Delaware, Michigan, Idaho has the highest participation rates for 2018 SAT North Dakota has least participation rate for SAT 2018. 
-         e. Maine is the states with least participation in 'act_2018_participation'
-         f. Wyoming,Oklahoma,Arkansas,Kentucky,Louisiana,Mississippi,Wisconsin,Montana,Nevada,Nebraska,North Carolina,Ohio,Missouri,
-            Alabama,Tennessee,Utah,South Carolina has the maximum participation in ACT 2018 Examination.
-         g. District of Columbia has least mean total/composite scores for the SAT 2017
-         h. Minnesota has highest mean total/composite scores for the SAT 2017
-         i. Nevada has the lowest mean total/composite scores for the ACT 2017
-         j. Connecticut has the highest mean total/composite scores for the ACT 2017
-         k. West Virginia has the highest mean total/composite scores for the SAT 2018 
-         l. Minnesota has highest mean total/composite scores for the SAT 2018
-         m. Nevada has the lowest mean total/composite scores for the ACT 2018
-         n. Connecticut has the highest mean total/composite scores for the ACT 2018
-         o. Colarado with 11% participation in SAT 2017 has increased tremendously to 100% in SAT 2018. Also, Colarado with 100% participation in ACT 2017 has reduced tremendously to 30% in ACT 2018. Ohio participation has increased from 75% in ACT 2017 to 100% in ACT 2018.
-         p. Florida, Georgia and Hawaii have the participation of more than 50% on both tests either year 
+   9. got the states participated lesser and most and the max and min marks based on states with masking, filtering and .sort_values() <br />                   a. North dakota, Mississippi, lowa are the states with least participation in 'sat_2017_participation' Connecticut,Delaware,   District of Columbia and Michigan are the states with maximum participation in 'sat_2017_participation'<br />
+               b. Maine is the states with least participation in 'act_2017_participation'<br />
+               c. South Carolina, Utah, Tennessee, Alabama, Missouri, North Carolina, Nevada, Montana, Wisconsin, Mississippi, Minnesota,Louisiana,Kentucky, Colorado, Arkansas, Oklahoma and Wyoming have the maximum participation rate for act_2017_participation.<br />
+               d. Colorado, Connecticut, Delaware, Michigan, Idaho has the highest participation rates for 2018 SAT North Dakota has least participation rate for SAT 2018.<br />
+               e. Maine is the states with least participation in 'act_2018_participation'<br />
+               f. Wyoming,Oklahoma,Arkansas,Kentucky,Louisiana,Mississippi,Wisconsin,Montana,Nevada,Nebraska,North Carolina,Ohio,Missouri, Alabama,Tennessee,Utah,South Carolina has the maximum participation in ACT 2018 Examination.<br />
+               g. District of Columbia has least mean total/composite scores for the SAT 2017 <br />
+               h. Minnesota has highest mean total/composite scores for the SAT 2017 <br />
+               i. Nevada has the lowest mean total/composite scores for the ACT 2017 <br />
+               j. Connecticut has the highest mean total/composite scores for the ACT 2017 <br />
+               k. West Virginia has the highest mean total/composite scores for the SAT 2018 <br />
+               l. Minnesota has highest mean total/composite scores for the SAT 2018 <br />
+               m. Nevada has the lowest mean total/composite scores for the ACT 2018 <br />
+               n. Connecticut has the highest mean total/composite scores for the ACT 2018 <br />
+               o. Colarado with 11% participation in SAT 2017 has increased tremendously to 100% in SAT 2018. Also, Colarado with 100% participation in ACT 2017 has reduced tremendously to 30% in ACT 2018. Ohio participation has increased from 75% in ACT 2017 to 100% in ACT 2018. <br />
+               p. Florida, Georgia and Hawaii have the participation of more than 50% on both tests either year <br />
           
-   10. SNS heat map is plotted to find relationship among various variables.Based on heatmap, SAT and ACT Participation have negative     correlation. 
-          **Observation** : 
+   10. SNS heat map is plotted to find relationship among various variables.Based on heatmap, SAT and ACT Participation have negative     correlation. <br />
+          **Observation** : <br />
                         SAT 2017 and SAT 2018, ACT 2017 and ACT 2018 have a positive correlation.
          
-   11. Histogram is plotted to find Participation rates for SAT & ACT, Math scores for SAT & ACT,Reading/verbal scores for SAT & ACT
-          **Observation** :
+   11. Histogram is plotted to find Participation rates for SAT & ACT, Math scores for SAT & ACT,Reading/verbal scores for SAT & ACT<br />
+          **Observation** :<br />
                         a. ACT has more states with 100% participation while SAT have more states with lesser participation. 
                         b. MATH marks was higher for SAT in 2017 compared to 2018.
                         c. Students score higher marks by states in SAT reading compared to ACT reading examination.
          
-   12. Scatter plot is plotted for SAT vs. ACT math scores for 2017, SAT vs. ACT verbal/reading scores for 2017, SAT vs. ACT                       total/composite scores for 2017, Total scores for SAT 2017 vs. 2018, Composite scores for ACT 2017 vs. 2018
-            **Observation** : 
+   12. Scatter plot is plotted for SAT vs. ACT math scores for 2017, SAT vs. ACT verbal/reading scores for 2017, SAT vs. ACT                       total/composite scores for 2017, Total scores for SAT 2017 vs. 2018, Composite scores for ACT 2017 vs. 2018<br />
+            **Observation** : <br />
                           a. SAT math scores for 2017 is comparitively higher than act math scores in 2017.
                           b. This reading and writing marks have a approximate negative linear relationship between act 2017 and sat 2017                                scores. SAT reading and writing are generally higher than ACT english marks.
                           c. Total scores for SAT 2017 vs. 2018 have positive linear relationship with few outliers
                           d. composite scores for ACT 2017 vs. 2018 have positive linear relationship with few outliers
                           
-   13. box plox is plotted to get the statistical data.
-            **Observation**: 
+   13. box plox is plotted to get the statistical data.<br />
+            **Observation**:<br /> 
                           a. ACT have more states with 100% participation compared to SAT. SAT 2018 participation is higher than SAT 2017
                           b. The trend is similar for SAT 2017 and SAT 2018 total.
                           c. The trend is similar for ACT 2017 and SAT 2018 composite.
                           d. The SAT marks are around the same for both subjects and for both years.
                           e. English mark by states have higher standard deviation while maths and science have lower standard deviation.Reading marks are higher than any other subject marks.
          
-   14. barh plot for participation versus states are plotted.
-             **Observation**: 
-             Rhode Island, Illinois and colorodo ACT has shown decrease in participation in 2018 while increase in SAT participation in 2018.Ohio participation increased in 2018. Generally based on this chart we could say if SAT participation is more in a particular state then ACT participation is lesser in the state. If ACT participation is higher then SAT is lower in the state.
-             **Outside research**: 
-             Colorado, Illinois and Rhode Island is my states of interest. The increase in SAT 2018 and decrease in ACT 2018 is due to the change in the state policy in 2017. So from 2018 Colorado, Illinois and Rhode Island require SAT examination scores for enrolling in the college. Ohio is another state where they can accept either ACT or SAT scores for college admission. So, the participation raised in 2018 for both ACT and SAT.
+   14. barh plot for participation versus states are plotted.<br />
+             **Observation**: <br />
+             Rhode Island, Illinois and colorodo ACT has shown decrease in participation in 2018 while increase in SAT participation in 2018.Ohio participation increased in 2018. Generally based on this chart we could say if SAT participation is more in a particular state then ACT participation is lesser in the state. If ACT participation is higher then SAT is lower in the state.<br />
+             **Outside research**: <br />
+             Colorado, Illinois and Rhode Island is my states of interest. The increase in SAT 2018 and decrease in ACT 2018 is due to the change in the state policy in 2017. So from 2018 Colorado, Illinois and Rhode Island require SAT examination scores for enrolling in the college. Ohio is another state where they can accept either ACT or SAT scores for college admission. So, the participation raised in 2018 for both ACT and SAT.<br />
              
-   15. **Conclusion**:
-            Based on the studies, found that the states with maximum participation in one exam participated lesser in the other exam. This is because of their state policies. Certain states accept SAT and certain states accept ACT. While some other states accept both the examination. In 2017 there was a change in state policy, So in 2018 some of the state moved to SATS examination. The marks secured by ACT and SAT have a approximate negative linear relationship. SAT marks are comparatively higher than ACT marks. SAT 2017 and 2018 marks have a linear relationship. ACT 2017 and 2018 marks also have a linear relationship. 
+   15. **Conclusion**:<br />
+            Based on the studies, found that the states with maximum participation in one exam participated lesser in the other exam. This is because of their state policies. Certain states accept SAT and certain states accept ACT. While some other states accept both the examination. In 2017 there was a change in state policy, So in 2018 some of the state moved to SATS examination. The marks secured by ACT and SAT have a approximate negative linear relationship. SAT marks are comparatively higher than ACT marks. SAT 2017 and 2018 marks have a linear relationship. ACT 2017 and 2018 marks also have a linear relationship. <br />
    If in a state with least participation like alaska where SAT examination is accepted, then the college board might start campaign and speak about the positives of taking the examination and the exam board can offer some discounts in the examination fee for the students. SAT Examination board can also sign a contract with the college board and ask the colleges to encourage the students to take SAT examination.
