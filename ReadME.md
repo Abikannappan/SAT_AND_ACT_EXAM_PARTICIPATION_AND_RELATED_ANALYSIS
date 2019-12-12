@@ -1,25 +1,25 @@
 **Exploratory data analysis of student's participation and performance in ACT and SAT Examination**
 
-- The participation percentage and average marks secured by various states in United States at SAT and ACT Examination for year 2017 and   2018 is given to us. 
-- We have to analyse, 
-     1. whether SAT or ACT have maximum participation?
-     2. Does the participation rates changes with year? If it changes, why it changes?
-     3. What are the trend of their scores in subtest and in the composite? 
-     4. Which are the states that shows interesting trends? Why there is difference in trend?
-     5. How can we improve our particiation percentage atleast in 1 of the states with lesser participation?
+- The participation percentage and average marks secured by various states in United States at SAT and ACT Examination for year 2017 and   2018 is given to us. <br />
+- We have to analyse, <br />
+     1. whether SAT or ACT have maximum participation?<br />
+     2. Does the participation rates changes with year? If it changes, why it changes?<br />
+     3. What are the trend of their scores in subtest and in the composite?<br /> 
+     4. Which are the states that shows interesting trends? Why there is difference in trend?<br />
+     5. How can we improve our particiation percentage atleast in 1 of the states with lesser participation?<br />
 
-- Steps involved in the project:
+- Steps involved in the project:<br />
 
-   1. Libraries imported.
-   2. sat_2017.csv, act_2017.csv are read from csv file with pd.read_csv()
-   3. with .info() data type informations of the 2 data frames are obtained.
-   4. Cleaning
-         a. Planned to convert states into string and numeric data into float.
-         b. strip % with .apply(lambda x: x.strip('x'))
-         c. converted data types using pd.to_numeric(), .astype(float)
-         d. 2 typos in datas are directly changed in the csv file.
-         e. .rename(columns={},inplace = True) is used to rename columns
-         f. unnecessary rows are dropped with .drop()
+   1. Libraries imported.<br />
+   2. sat_2017.csv, act_2017.csv are read from csv file with pd.read_csv()<br />
+   3. with .info() data type informations of the 2 data frames are obtained.<br />
+   4. Cleaning<br />
+         a. Planned to convert states into string and numeric data into float.<br />
+         b. strip % with .apply(lambda x: x.strip('x'))<br />
+         c. converted data types using pd.to_numeric(), .astype(float)<br />
+         d. 2 typos in datas are directly changed in the csv file.<br />
+         e. .rename(columns={},inplace = True) is used to rename columns<br />
+         f. unnecessary rows are dropped with .drop()<br />
     
     
    5. Variables used in the project ACT_SAT_2017_2018
@@ -49,9 +49,9 @@
       |act_2018_composite|Float|ACT|Average Marks of all subjects got by students in ACT 2018 Examination|
 
  
-   6. Then datas are merged with pd.merge()
-   7. Repeated the steps for ACT, SAT 2018 and merged all files together.
-   8. describe() is used to obtain the statistical information.
+   6. Then datas are merged with pd.merge()<br />
+   7. Repeated the steps for ACT, SAT 2018 and merged all files together.<br />
+   8. describe() is used to obtain the statistical information.<br />
    9. got the states participated lesser and most and the max and min marks based on states with masking, filtering and .sort_values() <br />                   a. North dakota, Mississippi, lowa are the states with least participation in 'sat_2017_participation' Connecticut,Delaware,   District of Columbia and Michigan are the states with maximum participation in 'sat_2017_participation'<br />
                b. Maine is the states with least participation in 'act_2017_participation'<br />
                c. South Carolina, Utah, Tennessee, Alabama, Missouri, North Carolina, Nevada, Montana, Wisconsin, Mississippi, Minnesota,Louisiana,Kentucky, Colorado, Arkansas, Oklahoma and Wyoming have the maximum participation rate for act_2017_participation.<br />
@@ -75,24 +75,24 @@
          
    11. Histogram is plotted to find Participation rates for SAT & ACT, Math scores for SAT & ACT,Reading/verbal scores for SAT & ACT<br />
           **Observation** :<br />
-                        a. ACT has more states with 100% participation while SAT have more states with lesser participation. 
-                        b. MATH marks was higher for SAT in 2017 compared to 2018.
-                        c. Students score higher marks by states in SAT reading compared to ACT reading examination.
+                        a. ACT has more states with 100% participation while SAT have more states with lesser participation.<br /> 
+                        b. MATH marks was higher for SAT in 2017 compared to 2018.<br />
+                        c. Students score higher marks by states in SAT reading compared to ACT reading examination.<br />
          
    12. Scatter plot is plotted for SAT vs. ACT math scores for 2017, SAT vs. ACT verbal/reading scores for 2017, SAT vs. ACT                       total/composite scores for 2017, Total scores for SAT 2017 vs. 2018, Composite scores for ACT 2017 vs. 2018<br />
             **Observation** : <br />
-                          a. SAT math scores for 2017 is comparitively higher than act math scores in 2017.
-                          b. This reading and writing marks have a approximate negative linear relationship between act 2017 and sat 2017                                scores. SAT reading and writing are generally higher than ACT english marks.
-                          c. Total scores for SAT 2017 vs. 2018 have positive linear relationship with few outliers
-                          d. composite scores for ACT 2017 vs. 2018 have positive linear relationship with few outliers
+                          a. SAT math scores for 2017 is comparitively higher than act math scores in 2017.<br />
+                          b. This reading and writing marks have a approximate negative linear relationship between act 2017 and sat 2017                                scores. SAT reading and writing are generally higher than ACT english marks.<br />
+                          c. Total scores for SAT 2017 vs. 2018 have positive linear relationship with few outliers.<br />
+                          d. composite scores for ACT 2017 vs. 2018 have positive linear relationship with few outliers.<br />
                           
    13. box plox is plotted to get the statistical data.<br />
             **Observation**:<br /> 
-                          a. ACT have more states with 100% participation compared to SAT. SAT 2018 participation is higher than SAT 2017
-                          b. The trend is similar for SAT 2017 and SAT 2018 total.
-                          c. The trend is similar for ACT 2017 and SAT 2018 composite.
-                          d. The SAT marks are around the same for both subjects and for both years.
-                          e. English mark by states have higher standard deviation while maths and science have lower standard deviation.Reading marks are higher than any other subject marks.
+                          a. ACT have more states with 100% participation compared to SAT. SAT 2018 participation is higher than SAT 2017.<br />
+                          b. The trend is similar for SAT 2017 and SAT 2018 total.<br />
+                          c. The trend is similar for ACT 2017 and SAT 2018 composite.<br />
+                          d. The SAT marks are around the same for both subjects and for both years.<br />
+                          e. English mark by states have higher standard deviation while maths and science have lower standard deviation.Reading marks are higher than any other subject marks.<br />
          
    14. barh plot for participation versus states are plotted.<br />
              **Observation**: <br />
