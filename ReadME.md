@@ -1,4 +1,4 @@
-**Exploratory data analysis of student's participation and Performance in ACT and SAT Examination**
+**Exploratory data analysis of student's participation and performance in ACT and SAT Examination**
 
 - The participation percentage and average marks secured by various states in United States at SAT and ACT Examination for year 2017 and   2018 is given to us. 
 - We have to analyse, 
@@ -72,7 +72,8 @@
          p. Florida, Georgia and Hawaii have the participation of more than 50% on both tests either year 
           
    10. SNS heat map is plotted to find relationship among various variables.Based on heatmap, SAT and ACT Participation have negative     correlation. 
-          Observation : SAT 2017 and SAT 2018, ACT 2017 and ACT 2018 have a positive correlation.
+          **Observation** : 
+                        SAT 2017 and SAT 2018, ACT 2017 and ACT 2018 have a positive correlation.
          
    11. Histogram is plotted to find Participation rates for SAT & ACT, Math scores for SAT & ACT,Reading/verbal scores for SAT & ACT
           **Observation** :
@@ -81,7 +82,8 @@
                         c. Students score higher marks by states in SAT reading compared to ACT reading examination.
          
    12. Scatter plot is plotted for SAT vs. ACT math scores for 2017, SAT vs. ACT verbal/reading scores for 2017, SAT vs. ACT                       total/composite scores for 2017, Total scores for SAT 2017 vs. 2018, Composite scores for ACT 2017 vs. 2018
-            Observation : a. SAT math scores for 2017 is comparitively higher than act math scores in 2017.
+            **Observation** : 
+                          a. SAT math scores for 2017 is comparitively higher than act math scores in 2017.
                           b. This reading and writing marks have a approximate negative linear relationship between act 2017 and sat 2017                                scores. SAT reading and writing are generally higher than ACT english marks.
                           c. Total scores for SAT 2017 vs. 2018 have positive linear relationship with few outliers
                           d. composite scores for ACT 2017 vs. 2018 have positive linear relationship with few outliers
